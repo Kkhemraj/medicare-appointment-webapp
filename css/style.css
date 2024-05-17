@@ -64,6 +64,11 @@ header{background-color: #fff;}
 .card .date{font-size: 0.8rem;}
 .action button img{width: 30px;}
 
+@media screen and (max-width:1400px){
+    .logo { width: 170px; }
+    .profile-img{width: 100px;}
+    .menu-list{margin-top:40px}
+}
 @media screen and (max-width:1200px){
 
 
@@ -112,7 +117,7 @@ header{background-color: #fff;}
         top:10px;
         margin-top:0;
     }
-    .profile-img{width: 120px;}
+   
     ::placeholder{font-size: 0.8rem;}
     
     .search-box {
